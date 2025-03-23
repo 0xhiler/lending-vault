@@ -9,9 +9,16 @@ const underlyings = [
     symbol: "ibexS",
     name: "Impermax Lent S",
     borrowables: [
-      "0x484D5f48E8d97126422E77353b21D4C5b773f443", // ws/eco
+      // "0x484D5f48E8d97126422E77353b21D4C5b773f443", // ws/eco
       "0xc40c6b4b8645412C81C1627d1e24b5b6705C5c20", // ws/equal
-      "0x8607400D97b782493629B7DEA99B79f90A5347f3", // ws/usdc.e
+      // "0x8607400D97b782493629B7DEA99B79f90A5347f3", // ws/usdc.e
+      // "0xa73a49f1a431b779348520dee3bc98bbd5a70a1e", // ws/stS 
+      "0x2a69f6c9ebc4bd96d51abc37bf17c7a1ca149a3c", // ws/bol
+      "0xfc28227028e06a71283ecd4f8d2d8955e09778ef", // ws/goglz
+      "0x2de6f52dbb457dffecf1b51602c991afcdc7f780", // ws/sdog
+      "0xcedfb59ef6f24d2c05d639d4672c6644f8e49b8a", // ws/fs
+      "0x8d05ba24f6ae7a0ba99fa029be79aefa2ca94458", // ws/moon
+      "0x13764f3cc643c99cbbc2961e78968ca70b6e7aa9", // ws/tysg
     ]
   },
   {
@@ -22,6 +29,7 @@ const underlyings = [
     borrowables: [
       "0x7Eac328292b106b747B86755A453bD801FAaC620", // ws/usdc.e
       "0x08efCD7C1B5ef4DcDF0Bf7821FBFB6388C115698", // usdc.e/weth
+      "0xd12d3f128290f38eb574d58af26b8bb1705464a8", // usdc.e/equal
     ]
   },
   {

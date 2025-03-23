@@ -62,7 +62,11 @@ module.exports = {
     sonic: {
       url: "https://rpc.soniclabs.com",
       accounts: [config.scroll_key]
-    }
+    },
+    arbitrum: {
+      url: "https://rpc.ankr.com/arbitrum",
+      accounts: [config.arb_key]
+    },
   },
   solidity: {
     compilers: [
@@ -106,6 +110,7 @@ module.exports = {
       base: config.base_api_key,
       polygon: config.matic_api_key,
       sonic: config.sonic_api_key,
+      arbitrumOne: config.arb_api_key
     },
     customChains: [
       {
